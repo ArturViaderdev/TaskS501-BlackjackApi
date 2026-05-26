@@ -5,7 +5,7 @@ services:
         context: ./build/mysql
     environment:
       MYSQL_ROOT_PASSWORD: "ArturPassRoot-987"
-      MYSQL_DATABASE: fruits
+      MYSQL_DATABASE: blackjack
       MYSQL_USER: devs
       MYSQL_PASSWORD: "pw1234"
     volumes:
