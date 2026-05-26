@@ -7,5 +7,5 @@ import reactor.core.publisher.Mono;
 
 public interface PlayerRepository extends ReactiveCrudRepository<Player,Long> {
     Mono<Player> findByName(String name);
-    Flux<Player> findAllOrderByScoreDesc();
+    Flux<Player> findAllByOrderByScoreDesc();
 }
