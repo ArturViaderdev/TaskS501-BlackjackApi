@@ -1,4 +1,4 @@
-package Model;
+package cat.itacademy.s05.t01.n01.blackjack.Model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;

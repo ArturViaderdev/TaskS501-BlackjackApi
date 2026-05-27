@@ -1,20 +1,21 @@
-package service;
+package cat.itacademy.s05.t01.n01.blackjack.service;
 
-import Model.Game;
-import Model.Player;
-import exception.GameAlreadyFinishedException;
-import exception.GameNotFoundException;
-import exception.InvalidActionException;
-import exception.PlayerNotFoundException;
+import cat.itacademy.s05.t01.n01.blackjack.Model.Game;
+import cat.itacademy.s05.t01.n01.blackjack.Model.Player;
+import cat.itacademy.s05.t01.n01.blackjack.exception.GameAlreadyFinishedException;
+import cat.itacademy.s05.t01.n01.blackjack.exception.GameNotFoundException;
+import cat.itacademy.s05.t01.n01.blackjack.exception.InvalidActionException;
+import cat.itacademy.s05.t01.n01.blackjack.exception.PlayerNotFoundException;
+import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-import repository.GameRepository;
-import repository.PlayerRepository;
+import cat.itacademy.s05.t01.n01.blackjack.repository.GameRepository;
+import cat.itacademy.s05.t01.n01.blackjack.repository.PlayerRepository;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-
+@Service
 public class GameServiceImpl implements GameService {
     private final PlayerRepository playerRepository;
     private final GameRepository gameRepository;

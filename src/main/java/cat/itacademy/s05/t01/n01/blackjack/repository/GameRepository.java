@@ -1,6 +1,6 @@
-package repository;
+package cat.itacademy.s05.t01.n01.blackjack.repository;
 
-import Model.Game;
+import cat.itacademy.s05.t01.n01.blackjack.Model.Game;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 import reactor.core.publisher.Flux;
 

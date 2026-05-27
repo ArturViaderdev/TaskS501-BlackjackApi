@@ -1,14 +1,12 @@
-package controller;
+package cat.itacademy.s05.t01.n01.blackjack.controller;
 
-import Model.Game;
-import Model.Player;
-import dto.*;
+import cat.itacademy.s05.t01.n01.blackjack.dto.*;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-import service.GameService;
+import cat.itacademy.s05.t01.n01.blackjack.service.GameService;
 
 @RestController
 @RequestMapping

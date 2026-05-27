@@ -1,7 +1,7 @@
-package service;
+package cat.itacademy.s05.t01.n01.blackjack.service;
 
-import Model.Game;
-import Model.Player;
+import cat.itacademy.s05.t01.n01.blackjack.Model.Game;
+import cat.itacademy.s05.t01.n01.blackjack.Model.Player;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 

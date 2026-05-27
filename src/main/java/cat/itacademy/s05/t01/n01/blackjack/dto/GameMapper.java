@@ -1,7 +1,7 @@
-package dto;
+package cat.itacademy.s05.t01.n01.blackjack.dto;
 
-import Model.Game;
-import Model.Player;
+import cat.itacademy.s05.t01.n01.blackjack.Model.Game;
+import cat.itacademy.s05.t01.n01.blackjack.Model.Player;
 
 public class GameMapper {
     private GameMapper() {

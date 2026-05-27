@@ -1,4 +1,4 @@
-package dto;
+package cat.itacademy.s05.t01.n01.blackjack.dto;
 
 public class PlayerRankingDTO {
     private Long playerId;

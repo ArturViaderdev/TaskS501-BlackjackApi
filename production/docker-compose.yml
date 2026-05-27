@@ -9,7 +9,7 @@ services:
       MYSQL_USER: devs
       MYSQL_PASSWORD: "pw1234"
     volumes:
-    - ./build/mysql/seconddatabase.sql:/docker-entrypoint-initdb.d/seconddatabase.sql:ro
+    - ./build/mysql/permissions.sql:/docker-entrypoint-initdb.d/permissions.sql:ro
     - mysql_data:/var/lib/mysql
     network_mode: "host"
   mongodb:
